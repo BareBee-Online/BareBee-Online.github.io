@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Welcome User, please select a Starting Point</h1>
+    </head>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #02BEFD;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 15%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.disabledbtn {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.check {
+  columns: 3;
+}
+    </style>
+
+    <body>
+
+<ul class="topnav">
+  <li><a class="disabledbtn">Home</a></li>
+  <li><a href="Welcome.html">Exit</a></li>
+  <li><a href="Login.html">Login</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Register.html">Register</a></li>
+  <li><a href="Change_Log.html">Change Log</a></li>
+  <li><a href="Allowed.html">Allowed</a></li>
+</ul>
+<div class="check">
+<div class="container">
+    <img src="test1.png" alt="test1" style="width:50%">
+        <a href="Blank_Page_White.html" class="btn">Select</a>
+</div>
+
+<div class="container">
+    <img src="test2.png" alt="test2" style="width:50%">
+  <a href="Blank_Page_Black.html" class="btn">Select</a>
+</div>
+<div class="container">
+    <img src="test3.png" alt="test3" style="width:50%">
+  <a href="Blank_Page_Green.html" class="btn">Select</a>
+</div>
+</div>
+    </body>
+</html>
